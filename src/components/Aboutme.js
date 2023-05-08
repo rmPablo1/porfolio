@@ -11,7 +11,6 @@ function Aboutme() {
           <h3><span>PABLO</span> RUBIO</h3>
           <p>Creative and detail-oriented <span style={{color:"blueviolet"}}>Web Developer</span> passionate about coding, crafting engaging digital experiences, and collaborative problem-solving.</p>
           <div style={{display:"flex", alignItems:"center", gap:"20px"}}>
-            <button className="aboutme-button">Resume</button>
             <a href="https://www.linkedin.com/in/pablo-rubio-monzo/" style={{fontSize:"30px"}} target="_blank" rel="noreferrer"><AiFillLinkedin/></a>
             <a href="https://github.com/rmPablo1" style={{fontSize:"30px"}} target="_blank" rel="noreferrer"><AiFillGithub/></a>
           </div>
