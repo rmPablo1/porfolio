@@ -28,7 +28,7 @@ function Contact() {
             </div>
             <input type="text" name="subject" placeholder="Job opportunity" required />
             <input type="textarea" name="message" placeholder="Your Message*" required />
-            <button type="submit" className="aboutme-button" style={{width:"30%", margin:"0 auto"}}>SEND</button>
+            <button type="submit" className="aboutme-button">SEND</button>
           </form>
         </div>
       </div>

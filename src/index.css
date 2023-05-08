@@ -177,11 +177,14 @@ body{
   height: 40%;
 }
 
+.card-information{
+  width: 70%;
+}
 
 .contact-container{
   width: 55%;
   margin: 0 auto;
-
+  margin-bottom: 70px;
 }
 
 .contact-inner{
@@ -228,4 +231,92 @@ form input{
   justify-content: center;
   border-radius:20px;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 1233px){
+  .aboutme-description{
+    width:630px;
+    margin-bottom:20px;
+  }
+
+  .skills-container1{
+    margin-top: 70px
+  }
+}
+
+@media (max-width: 1000px){
+  .card{
+    flex-direction: column;
+  }
+
+  .card img{
+    width: 100%;
+  }
+
+  .card-information{
+    width: 100%;
+  }
+
+}
+
+@media (max-width:886px){
+  .aboutme-description{
+    width:100%;
+    font-size: 20px;
+  }
+
+  .aboutme-container{
+    flex-direction: column;
+    width:60%;
+  }
+  .aboutme-information{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px){
+  .navbar-container{
+    display:none;
+  }
+  .skills-container{
+    width: 85%;
+  }
+
+  .projects-container{
+    width: 85%;
+  }
+
+  .contact-container{
+    width: 85%;
+  }
+  .mail-card{
+    width: 85%;
+  }
+}
+
+@media (max-width: 700px){
+  .skills-container1{
+    margin-top: 200px;
+  }
+
+  .aboutme-container2{
+    width: 85%;
+  }
+
+  .projectcard-container{
+    padding: 0
+  }
+
+  .contact-inner{
+    padding: 10px;
+  }
+
+  .aboutme-button{
+    width: 70%;
+    margin: 0 auto;
+  }
+
 }
