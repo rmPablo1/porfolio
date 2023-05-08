@@ -8,7 +8,7 @@ function Contact() {
   }
   return (
     <div className="contact-container" id="contactLine">
-      <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}><AiOutlineLine style={{fontSize:"30px", color:"gray"}}/> SAY HELLO</p>
+      <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}><AiOutlineLine style={{fontSize:"30px", color:"gray"}}/></p>
       <h3>CONTACT</h3>
       <div className="contact-inner">
         <p>Get in Touch</p>

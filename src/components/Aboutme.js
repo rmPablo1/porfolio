@@ -18,7 +18,7 @@ function Aboutme() {
         </div>
     </div>
     <div className="aboutme-container2" id="aboutmeLine">
-      <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}><AiOutlineLine style={{fontSize:"30px", color:"gray"}}/> SOME INFO</p>
+      <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}><AiOutlineLine style={{fontSize:"30px", color:"gray"}}/></p>
       <h3>ABOUT ME</h3>
       <div className="aboutme-description">
         <p>I am an adventurous and proactive individual who pursues new opportunities. I have a <span>passion</span> for

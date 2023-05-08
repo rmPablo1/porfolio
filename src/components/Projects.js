@@ -57,7 +57,7 @@ function Projects() {
   })
   return (
     <div className="projects-container" id="projectsLine">
-      <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}> <AiOutlineLine style={{fontSize:"30px", color:"gray"}}/> TAKE A LOOT AT MY</p>
+      <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}> <AiOutlineLine style={{fontSize:"30px", color:"gray"}}/></p>
       <h3>PROJECTS</h3>
       <div className="projectcard-container">
         {renderedProjects}

@@ -15,7 +15,7 @@ function Skills() {
   return (
     <div style={{marginTop: "-150px"}}id="skillsLine">
       <div className="skills-container1">
-        <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}><AiOutlineLine style={{fontSize:"30px", color:"gray"}}/> CHECK OUT MY</p>
+        <p style={{display:"flex", alignItems:"center", gap:"10px", fontSize:"10px"}}><AiOutlineLine style={{fontSize:"30px", color:"gray"}}/></p>
         <h3> SKILLS</h3>
       </div>
       <div className="skills-container">
