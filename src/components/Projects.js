@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import rentalCar from "../assets/rentalcar.png"
+import blog from "../assets/blog.png"
 import movies from "../assets/movies.png"
 import weekend from "../assets/weekend.png"
 import {AiOutlineLine} from "react-icons/ai"
@@ -17,6 +18,18 @@ function Projects() {
       live: "https://rmpablo1.github.io/rental/",
       repo: "https://github.com/rmPablo1/rental"
     },
+    {
+      image: blog,
+      title: "Blog website project",
+      stack: "HTML, CSS, JavaScript, React, NodeJS, ExpressJS, JWT, SendGrid, MongoDB, Mongoose",
+      description: <><li>Built using the MERN stack</li>
+      <li>Minimalist website done to showcase my skills with backend development</li>
+      <li>Implemented authentication and authorization system using JWTs with a MongoDB backend using Mongoose as an ODM and React as a frontend library</li>
+      </>,
+      live: "https://frontendblogapps.onrender.com/",
+      repo: "https://github.com/rmPablo1/fullstack-projects"
+    }
+    ,
     {
       image: movies,
       title: "Movie API",
