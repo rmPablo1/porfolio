@@ -24,7 +24,7 @@ function Projects() {
       stack: "HTML, CSS, JavaScript, React, NodeJS, ExpressJS, JWT, SendGrid, MongoDB, Mongoose",
       description: <><li>Built using the MERN stack</li>
       <li>Minimalist website done to showcase my skills with backend development</li>
-      <li>Implemented authentication and authorization system using JWTs with a MongoDB backend using Mongoose as an ODM and React as a frontend library</li>
+      <li>Implemented authentication and authorization system using JWTs with MongoDB backend using Mongoose as an ODM and React as a frontend library</li>
       </>,
       live: "https://frontendblogapps.onrender.com/",
       repo: "https://github.com/rmPablo1/fullstack-projects"
